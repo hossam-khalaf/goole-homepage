@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding-top: 20px;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar-items li {
+  margin-right: 1rem;
+}
+
+a.btn {
+  padding: 0.5rem 0.8rem;
+  background: #4285f4;
+  color: #fff;
+  text-decoration: none;
+}
